@@ -1,7 +1,26 @@
 aid: healthy-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/healthy-labs.png
 name: Healthy Labs
-description: Healthy Labs is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Healthy Labs is a healthcare and insurance technology company that powers
+  a portfolio of digital health brands driving membership growth for Medicare and
+  ACA (Affordable Care Act) insurance providers. Its offerings center on consumer
+  lead generation, compliance and operational analytics, and member acquisition and
+  retention optimization for the health-insurance market. The company has since rebranded
+  as MPA (mpa.com), positioning itself as an AI-powered platform for licensed insurance
+  professionals and agencies. Surfaced as a portfolio company of a16z and added to the API Evangelist
+  network as a stub, this profile is enriched from public sources; no public developer
+  program, OpenAPI specification, or API surface was found at the time of enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/healthy-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,33 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-former-name: Healthy Labs
+x-current-name: MPA
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health
+- Healthcare
+- Insurance
+- Medicare
+- Marketing
+- Lead Generation
+- Analytics
+common:
+- type: DomainSecurity
+  url: security/healthy-labs-domain-security.yml
+- type: Website
+  url: https://www.mpa.com/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
